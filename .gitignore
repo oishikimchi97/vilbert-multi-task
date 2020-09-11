@@ -37,13 +37,24 @@ data/
 save/
 logs/
 results/
+datasets/
+model_data/
+pseudo_data/
+
 
 # Checkpoints directory
 checkpoints/
 
 # IPython Notebook
 .ipynb_checkpoints
+*.ipynb
+
 
 # virtualenv
 venv/
 ENV/
+Pipfile
+
+#temp
+apex/
+vqa-maskrcnn-benchmark/
